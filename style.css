@@ -55,3 +55,37 @@
     align-items: center !important;
 }
 
+
+
+
+
+/*Cards*/
+.card-container {
+    padding: 30px 0;
+    font-family: 'Encode Sans';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    flex-wrap: wrap;
+}
+.card {
+    max-width: 100%;
+    margin: 40px 20px;
+    border-radius: 20px 20px 10px 10px;
+    padding-bottom: 20px;
+}
+.card:nth-child(1) {border-bottom: 14px solid #37BBED;}
+.card:nth-child(2) {border-bottom: 14px solid #9283BE;}
+.card:nth-child(3) {border-bottom: 14px solid #50B8B1;}
+.card h5 {font-weight: 600;}
+.card p {color: #555555}
+
+@media screen and (min-width: 768px) {
+    .card-container {
+        flex-direction: row;
+    }
+    .card-container > * {
+        flex-basis: calc(33% - 40px);
+    }
+}
