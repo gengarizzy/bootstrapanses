@@ -114,17 +114,7 @@ footer{
   
   }
   
-  .col-sm-12{
-    position: relative;
-    min-height: 1px;
-    padding-left: 13px;
-    padding-right: 13px;
-  }
-  .container{
-    padding: 0;
-    margin-right: auto;
-    margin-left: auto;
-  }
+ 
   
   footer .footer-bar .col-sm-4.links{
     padding: 0;
@@ -188,4 +178,31 @@ footer{
     font-size: 1.5em;
     color: white;
     font-weight: bold;
+  }
+
+  svg{
+    height: 50px;
+    width: 50px;
+  }
+
+ 
+
+  ul#redes_sociales{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  #links_footer a{
+    color: black;
+  }
+
+  #footer_bar{
+    height: 20vh;
+    background-color: #F3FAFF !important;
+  }
+
+  #footer_bar div{
+    margin-right: 4vw;
+    margin-left: 4vw;
   }
