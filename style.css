@@ -1,13 +1,17 @@
 #logo_anses_png{
     height: 6vh;
-    margin-left: 50px !important;
+    width: 100%;
+   
 }
 
 #header{
-    height: 16.5vh;
+    height: 16vh;
+    width: 100%;
     background-color: #37BBED !important;
-    justify-content: space-between;
+  
 }
+
+
 
 
 
@@ -37,16 +41,17 @@
     
 }
 
+
 #busca_en_anses{
-    height: 7vh;
-    width: 20vw;
+    height: 70px !important;
 }
 
-#header_search_form{
-    margin-left: 550px !important;
+#header_row{
+    
+    height: 100%;
+    align-items: center !important; 
+    background-color: #37BBED !important;
 }
-
-
-#img_mianses{
-    margin-right: 100px !important;
+#header_row div{
+    align-items: center !important;
 }
