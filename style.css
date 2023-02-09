@@ -191,6 +191,8 @@ footer{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    list-style: none;
+    gap: 10px;
   }
 
   #links_footer a{
@@ -205,4 +207,8 @@ footer{
   #footer_bar div{
     margin-right: 4vw;
     margin-left: 4vw;
+  }
+
+  #footer_text{
+    margin: 0 !important;
   }
