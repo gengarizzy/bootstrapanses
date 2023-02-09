@@ -68,9 +68,12 @@
     justify-content: center;
     justify-items: center;
     flex-wrap: wrap;
+    
 }
 .card {
+    
     max-width: 100%;
+    
     margin: 40px 20px;
     border-radius: 20px 20px 10px 10px;
     padding-bottom: 20px;
@@ -195,8 +198,20 @@ footer{
     gap: 10px;
   }
 
+
+
+  #links_footer ul{
+    list-style: none;
+  }
+
   #links_footer a{
     color: black;
+    text-decoration: none;
+  }
+
+  #links_footer a:hover{
+    color: blue;
+    text-decoration: underline;
   }
 
   #footer_bar{
@@ -205,10 +220,16 @@ footer{
   }
 
   #footer_bar div{
-    margin-right: 4vw;
-    margin-left: 4vw;
+    margin-right: 2vw;
+    margin-left: 2vw;
   }
 
   #footer_text{
     margin: 0 !important;
+  
   }
+
+
+#row_navbar a:hover{
+    text-decoration: underline;
+}
