@@ -1,7 +1,75 @@
-#logo_anses_png{
-    height: 5vh;
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@400;600;700&display=swap');
+
+#logo_anses_png {
+  height: 6vh;
+  width: 100%;
 }
 
-#header{
-    height: 15vh;
+#header {
+  height: 16vh;
+  width: 100%;
+  background-color: #37bbed !important;
+}
+
+#navbar_ul a {
+  color: white !important;
+  font-weight: bold !important;
+  font-family: "encodesans-bold";
+  text-align: center !important;
+  align-items: center;
+  font-size: 1em !important;
+}
+
+#navbar_ul {
+  background-color: #50535c !important;
+  text-align: center !important;
+  align-items: center;
+  height: 8.5vh;
+  gap: 20px;
+  font-weight: 400 !important;
+  width: 100% !important;
+}
+
+#busca_en_anses {
+  height: 70px !important;
+}
+
+#header_row {
+  height: 100%;
+  align-items: center !important;
+  background-color: #37bbed !important;
+}
+#header_row div {
+  align-items: center !important;
+}
+
+/*Cards*/
+.card-container {
+    padding: 30px 0;
+    font-family: 'Encode Sans';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    flex-wrap: wrap;
+}
+.card {
+    max-width: 100%;
+    margin: 40px 20px;
+    border-radius: 20px 20px 10px 10px;
+    padding-bottom: 20px;
+}
+.card:nth-child(1) {border-bottom: 14px solid #37BBED;}
+.card:nth-child(2) {border-bottom: 14px solid #9283BE;}
+.card:nth-child(3) {border-bottom: 14px solid #50B8B1;}
+.card h5 {font-weight: 600;}
+.card p {color: #555555}
+
+@media screen and (min-width: 768px) {
+    .card-container {
+        flex-direction: row;
+    }
+    .card-container > * {
+        flex-basis: calc(33% - 40px);
+    }
 }
